@@ -24,8 +24,6 @@ ordenaCrescente(produtos)
 
 
 
-
-
 // // 1 - Cria um novo array
 // let newArray = produtos.map(prod => prod)
 // console.log(newArray);

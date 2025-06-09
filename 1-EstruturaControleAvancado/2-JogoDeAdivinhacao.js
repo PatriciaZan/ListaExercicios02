@@ -8,7 +8,6 @@ const prompt = require('prompt-sync')();
 let userGuess
 let count = 0;
 let randomNumber = Math.floor(Math.random() * 100) + 1
-
 //console.log(randomNumber);
 
 do{

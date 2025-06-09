@@ -70,7 +70,3 @@ function ehDataValida(dia, mes, ano){
 //ehDataValida('21', '02', '2028');
 ehDataValida('01', '06', '2025');
 
-// Verifica se o formato da data é valido dia/mes/ano com o número correspondente de digitos(d{})
-// if(!/^\d{2}\/\d{2}\/\d{4}	&#36;/.test(inputData)){
-//      return false
-//  }

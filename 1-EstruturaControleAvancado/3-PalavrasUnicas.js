@@ -22,3 +22,7 @@ function palavrasUnicas(string){
 }
 
 console.log(palavrasUnicas("olá olá mundo mundo"))
+
+console.log('--------------------------');
+
+console.log(palavrasUnicas("olá olá mundo mundo World world Mundo"))

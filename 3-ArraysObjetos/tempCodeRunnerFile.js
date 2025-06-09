@@ -1,10 +1,10 @@
-// 'onde cada chave é um cliente'
-// const novoObjt = vendas.reduce((acc, obj) => {
-//     let cliente = obj
-//     acc[`key`] = cliente
-//     return acc
-// }, {})
+function exercicio(produtos){
+    let copia = produtos.slice()
+    copia.sort((a,b) => a.preco - b.preco)
 
-// //let keys = vendas.reduce()
+    let nomes = copia.map(prod => prod.nome)
 
-// console.log(novoObjt);
+    return nomes
+}
+
+console.log('Exercicio =>' + exercicio(produtos));

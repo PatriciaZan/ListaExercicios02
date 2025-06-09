@@ -16,7 +16,7 @@ function paresParaObjeto(pares){
     for(let i = 0; i < pares.length; i++){
         let par = pares[i]; // par = '['chave', 'valor']'
         let chave = par[0]; // coloca na primeira posição que é a 'chave:'
-        let valor = par[1]; // coloca na segunda posiçã oque é o ': valor'
+        let valor = par[1]; // coloca na segunda posição que é o ': valor'
 
         objPares[chave] = valor // add no obj
     }
@@ -40,6 +40,7 @@ function objetoParaPares(obj){
 
 const exemplo2 = {chave: 'valor'}
 const resultado2 = objetoParaPares(exemplo2)
+
 console.log('Resultado de objetoParaPares: ');
 console.log(resultado2);
 
